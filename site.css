@@ -7,69 +7,96 @@ body {
     justify-content: space-between;
 
 }
-.cabecera{
+
+.cabecera {
     font-style: italic;
     text-align: left;
     padding: 20px;
 }
+
 .nombre-titulo {
-   font-size: 300%;
+    font-size: 300%;
 }
-.puesto-deseado{
+
+.puesto-deseado {
     font-size: 150%;
 }
+
 .fotografia {
     max-width: 50%;
     width: 220px;
     height: auto;
     padding: 25px;
-    }
-.foto{
+}
+
+.foto {
     text-align: end;
 }
-.direccion{
-display: flex;
+
+.direccion {
+    display: flex;
 }
-.nombre-datos{
+
+.nombre-datos {
     font-style: normal;
     font-size: 16px;
     font-weight: bold;
     padding-right: 8px;
 }
-.logo-linkedin{
+
+.logo-linkedin {
     padding-top: 16px;
     width: 65px;
 }
-.logo-whatsapp{
+
+.logo-whatsapp {
     padding-top: 16px;
     padding-right: 12px;
     width: 40px;
 }
-.logo-correo{
+
+.logo-correo {
     padding-top: 16px;
     padding-right: 12px;
     width: 40px;
 }
-.logo-llamada{
-        padding-top: 16px;
-        width: 40px;
+
+.logo-llamada {
+    padding-top: 16px;
+    width: 40px;
 }
-.titulo-seccion{
+
+.titulo-seccion {
     font-style: normal;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
 }
-hr{
+
+hr {
     height: 4px;
     background-color: black;
 }
-.seccion-container{
+
+.seccion-container {
     display: flex;
     padding-top: 8px;
+    justify-content: space-between;
 }
-.empresa{
+.periodo {
+    padding: 0px 24px 0px 0px;
+}
+.experiencia {
+    width: 1100px;
+}
+
+.empresa {
     font-weight: bold;
-    
+    font-size: 20px;
+    padding-bottom: 12px;
 }
-    
+
+.puesto {
+    font-weight: bold;
+    padding-bottom: 12px;
+}
