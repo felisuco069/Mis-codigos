@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
-.Titulo-documento {
+.titulo-documento {
     display: flex;
     justify-content: space-between;
 
@@ -10,12 +10,12 @@ body {
 .cabecera{
     font-style: italic;
     text-align: left;
-    padding: 25px;
+    padding: 20px;
 }
-.Nombre-titulo {
+.nombre-titulo {
    font-size: 300%;
 }
-.puesto{
+.puesto-deseado{
     font-size: 150%;
 }
 .fotografia {
@@ -26,5 +26,32 @@ body {
     }
 .foto{
     text-align: end;
+}
+.direccion{
+display: flex;
+}
+.nombre-datos{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+.titulo-seccion{
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+hr{
+    height: 4px;
+    background-color: black;
+}
+.seccion-container{
+    display: flex;
+    padding-top: 8px;
+}
+.empresa{
+    font-weight: bold;
+    
 }
     
